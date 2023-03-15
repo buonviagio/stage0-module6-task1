@@ -19,9 +19,9 @@ public class Animal {
             fur = "no";
         }
         if (numberOfPaws == 1) {
-            puw = "puw";
+            puw = "paw";
         } else {
-            puw = "puws";
+            puw = "paws";
         }
 
         return "This animal is mostly " + color + ". It has " + numberOfPaws + " " + puw + " and " + fur + " fur.";
